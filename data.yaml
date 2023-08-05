@@ -1,0 +1,13 @@
+train: D:\Object Detection Project\person\train\images
+val: D:\Object Detection Project\person\valid\images
+test: D:\Object Detection Project\person\test\images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: adalovelace
+  project: cocopersondetection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/adalovelace/cocopersondetection/dataset/1
